@@ -1,29 +1,17 @@
-import React, {
-  lazy,
-  Suspense,
-  useEffect,
-  useRef,
-  useState,
-} from "react";
+import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
 
 import Hero from "../Components/Hero";
 
 // Lazy-load sections below the hero
-const HeroAboutSection = lazy(() =>
-  import("../Components/HeroAbout")
-);
+const HeroAboutSection = lazy(() => import("../Components/HeroAbout"));
 
-const RecentWorks = lazy(() =>
-  import("../Components/RecentWorks")
-);
+const RecentWorks = lazy(() => import("../Components/RecentWorks"));
 
-const ServicesSection = lazy(() =>
-  import("../Components/Service")
-);
+const ServicesSection = lazy(() => import("../Components/Service"));
 
-const ContactForm = lazy(() =>
-  import("../Components/ContactForm")
-);
+const WorksShowcase = lazy(() => import("../Components/WorksShowcase"));
+
+const ContactForm = lazy(() => import("../Components/ContactForm"));
 
 const DeferredSection = ({ children, minHeight = "600px" }) => {
   const sectionRef = useRef(null);
@@ -49,7 +37,7 @@ const DeferredSection = ({ children, minHeight = "600px" }) => {
       {
         rootMargin: "300px 0px",
         threshold: 0.01,
-      }
+      },
     );
 
     observer.observe(section);
@@ -70,11 +58,7 @@ const DeferredSection = ({ children, minHeight = "600px" }) => {
 };
 
 const SectionLoader = ({ minHeight = "200px" }) => (
-  <div
-    role="status"
-    aria-label="Loading section"
-    style={{ minHeight }}
-  />
+  <div role="status" aria-label="Loading section" style={{ minHeight }} />
 );
 
 const Home = () => {
@@ -99,6 +83,12 @@ const Home = () => {
       <DeferredSection minHeight="600px">
         <Suspense fallback={<SectionLoader minHeight="600px" />}>
           <ServicesSection />
+        </Suspense>
+      </DeferredSection>
+
+      <DeferredSection minHeight="500px">
+        <Suspense fallback={<SectionLoader minHeight="500px" />}>
+          <WorksShowcase />
         </Suspense>
       </DeferredSection>
 

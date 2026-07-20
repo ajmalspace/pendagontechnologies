@@ -1598,7 +1598,7 @@ const blogData = [
   },
 
   {
-  id: "7",
+  id: "6",
   title:
     "Is Digital Marketing a Good Career? (2026 Guide to Scope, Skills & High-Paying Roles)",
   slug: "is-digital-marketing-a-good-career-2026-guide",

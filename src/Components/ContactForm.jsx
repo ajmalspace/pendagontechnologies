@@ -39,14 +39,14 @@ const ContactForm = () => {
 
         {/* Right Section */}
         <form
-          action="https://formsubmit.co/hello@pendagon.com"
+          action="https://formsubmit.co/info@pendagon.in"
           method="POST"
           className="w-full lg:w-2/3 space-y-9"
         >
           <input
             type="hidden"
             name="_next"
-            value="https://pendagon.com/thank-you"
+            value="https://pendagon.in/thank-you"
           />
           <input type="hidden" name="_captcha" value="false" />
           <input
