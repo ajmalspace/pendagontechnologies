@@ -8,8 +8,7 @@ const BlogFilter = ({
   limit = null,
   paddingClass = "px-6 md:px-12 lg:px-10 py-12",
 }) => {
-  const categories = ["Marketing", "Development", "Digital Products"];
-
+  const categories = ["Marketing", "Development", "Career", "Skills"];
   const filters = [
     { name: "Everything", count: blogData.length },
     ...categories.map((cat) => ({

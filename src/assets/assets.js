@@ -4,6 +4,8 @@ import Work1 from "./work1.webp";
 import Work2 from "./work2.webp";
 import Work3 from "./work3.webp";
 import Work4 from "./work4.webp";
+import WorkVideo from "./workvid.webm";
+import WorkVideo2 from "./workvid2.webm";
 import AgencyVideo from "./Digital_Agency_Promo.webm";
 
 // Clients Logo
@@ -25,6 +27,8 @@ import dreamflowerlogo from "./dreamflowerlogo.webp";
 
 export {
   MainLogo,
+  WorkVideo,
+  WorkVideo2,
   CokomiLogo,
   FlywellLogo,
   GulfguardLogo,

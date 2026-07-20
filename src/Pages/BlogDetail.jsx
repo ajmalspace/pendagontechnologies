@@ -10,8 +10,8 @@ import blogData from "../Data/blogData";
 const buildSchema = (blog) => {
   const publisher = {
     "@type": "Organization",
-    name: "Pendagon Institute of Creative Studies",
-    url: "https://pendagoninstitute.com/",
+    name: "Pendagon Technologies",
+    url: "https://pendagon.in/",
   };
 
   const articleSchema = {
@@ -24,12 +24,12 @@ const buildSchema = (blog) => {
     author: {
       "@type": "Person",
       name: blog.author?.name || "Pendagon Team",
-      url: blog.author?.url || "https://pendagoninstitute.com/",
+      url: blog.author?.url || "https://pendagon.in/",
     },
     publisher,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://pendagoninstitute.com${blog.canonicalPath || `/blog/${blog.id}`}`,
+      "@id": `https://pendagon.in${blog.canonicalPath || `/blog/${blog.id}`}`,
     },
   };
 
@@ -60,19 +60,19 @@ const buildSchema = (blog) => {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://pendagoninstitute.com/",
+        item: "https://pendagon.in/",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://pendagoninstitute.com/blog",
+        item: "https://pendagon.in/blog",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: blog.title,
-        item: `https://pendagoninstitute.com${blog.canonicalPath || `/blog/${blog.id}`}`,
+        item: `https://pendagon.in${blog.canonicalPath || `/blog/${blog.id}`}`,
       },
     ],
   });

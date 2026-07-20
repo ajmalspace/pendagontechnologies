@@ -39,7 +39,7 @@ const CareerBoard = () => {
                   FULL TIME | ONSITE | 1+ YRS EXP
                 </p>
                 <Link
-                  to="/applynow"
+                  to="/applyNow"
                   className="inline-flex text-[10px] md:text-[15px] items-center gap-x-1 uppercase hover:text-black underline"
                 >
                   Apply Now <HiArrowUpRight />
@@ -61,7 +61,7 @@ const CareerBoard = () => {
                   FULL TIME | ONSITE | 1+ YRS EXP
                 </p>
                 <Link
-                  to="/applynow"
+                  to="/applyNow"
                   className="inline-flex text-[10px] md:text-[15px] items-center gap-x-1 uppercase hover:text-black underline"
                 >
                   Apply Now <HiArrowUpRight />
@@ -92,7 +92,7 @@ const CareerBoard = () => {
                   FULL TIME | ONSITE | 3+ YRS EXP
                 </p>
                 <Link
-                  to="/applynow"
+                  to="/applyNow"
                   className="inline-flex text-[10px] md:text-[15px] items-center gap-x-1 uppercase hover:text-black underline"
                 >
                   Apply Now <HiArrowUpRight />
@@ -114,7 +114,7 @@ const CareerBoard = () => {
                   FULL TIME | ONSITE | FRESHERS
                 </p>
                 <Link
-                  to="/applynow"
+                  to="/applyNow"
                   className="inline-flex text-[10px] md:text-[15px] items-center gap-x-1 uppercase hover:text-black underline"
                 >
                   Apply Now <HiArrowUpRight />
@@ -136,7 +136,7 @@ const CareerBoard = () => {
                   FULL TIME | ONSITE | 3+ YRS EXP
                 </p>
                 <Link
-                  to="/applynow"
+                  to="/applyNow"
                   className="inline-flex text-[10px] md:text-[15px] items-center gap-x-1 uppercase hover:text-black underline"
                 >
                   Apply Now <HiArrowUpRight />
