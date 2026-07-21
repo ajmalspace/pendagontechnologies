@@ -6,7 +6,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative overflow-hidden bg-black px-7 py-8 text-white font-inter md:px-11 md:pt-16">
+    <footer className="relative overflow-hidden bg-[#22163b] px-7 py-8 text-white font-inter md:px-11 md:pt-16">
       <div className="flex flex-col justify-between gap-10 sm:mb-40 md:flex-row md:flex-wrap">
         {/* Contact Section */}
         <div className="space-y-5 md:space-y-8">
@@ -182,7 +182,7 @@ const Footer = () => {
             <p>© {currentYear}</p>
           </div>
 
-          <p className="pt-6 text-center text-[68px] font-bold leading-[44px] text-gray-500 sm:text-[150px] md:text-[216px] md:leading-[150px]">
+          <p className="pt-6 text-center text-[68px] font-bold leading-[44px] opacity-20 text-gray-500 sm:text-[150px] md:text-[216px] md:leading-[150px]">
             PENDAGON
           </p>
         </div>

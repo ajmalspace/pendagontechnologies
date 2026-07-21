@@ -16,6 +16,7 @@ import {
   apislogo,
   dreamflowerlogo,
 } from "../assets/assets";
+import TrustedClients from "./TrustedClients";
 
 const logos = [
   {
@@ -118,55 +119,15 @@ const Hero = () => {
         </span>
       </h1>
 
-     {/* Description */}
-<p className="pt-6 px-2 text-base text-gray-700">
-  We are one of the best digital marketing agencies in Kasaragod, Kerala.
-  Performance-oriented
-  <br className="hidden sm:block" /> digital marketing that helps your
-  business stand out from the competition.
-</p>
-
-      {/* Client Section Title */}
-      <p className="pt-12 md:pt-24 px-2 text-base max-w-md sm:max-w-xl font-space">
-        Our Trusted Clients
+      {/* Description */}
+      <p className="pt-6 px-2 text-base text-gray-700">
+        We are one of the best digital marketing agencies in Kasaragod, Kerala.
+        Performance-oriented
+        <br className="hidden sm:block" /> digital marketing that helps your
+        business stand out from the competition.
       </p>
 
-      {/* Client Logos */}
-      <div className="mt-6 py-10 rounded-3xl border-gray-800 w-full max-w-5xl px-4 border flex flex-wrap justify-center items-center gap-4 sm:gap-6">
-        {logos.map((logo) => {
-          const logoImage = (
-            <img
-              src={logo.img}
-              alt={logo.alt}
-              width="160"
-              height="40"
-              loading="lazy"
-              decoding="async"
-              className="h-12 object-contain grayscale brightness-0 hover:scale-105 transition-transform duration-200"
-            />
-          );
-
-          return logo.link ? (
-            <a
-              key={logo.alt}
-              href={logo.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Visit ${logo.alt.replace(" logo", "")}`}
-              className="flex items-center justify-center"
-            >
-              {logoImage}
-            </a>
-          ) : (
-            <div
-              key={logo.alt}
-              className="flex items-center justify-center"
-            >
-              {logoImage}
-            </div>
-          );
-        })}
-      </div>
+      <TrustedClients logos={logos} />
     </section>
   );
 };

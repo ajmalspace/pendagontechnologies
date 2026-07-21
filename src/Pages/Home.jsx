@@ -66,29 +66,26 @@ const Home = () => {
     <>
       {/* Load hero immediately */}
       <Hero />
-
-      {/* Load after the hero */}
       <DeferredSection minHeight="800px">
+        <DeferredSection minHeight="500px">
+          <Suspense fallback={<SectionLoader minHeight="500px" />}>
+            <WorksShowcase />
+          </Suspense>
+        </DeferredSection>
         <Suspense fallback={<SectionLoader minHeight="800px" />}>
           <HeroAboutSection />
         </Suspense>
       </DeferredSection>
 
-      <DeferredSection minHeight="900px">
+      {/* <DeferredSection minHeight="900px">
         <Suspense fallback={<SectionLoader minHeight="900px" />}>
           <RecentWorks />
         </Suspense>
-      </DeferredSection>
+      </DeferredSection> */}
 
       <DeferredSection minHeight="600px">
         <Suspense fallback={<SectionLoader minHeight="600px" />}>
           <ServicesSection />
-        </Suspense>
-      </DeferredSection>
-
-      <DeferredSection minHeight="500px">
-        <Suspense fallback={<SectionLoader minHeight="500px" />}>
-          <WorksShowcase />
         </Suspense>
       </DeferredSection>
 
