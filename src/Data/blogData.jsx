@@ -64,1089 +64,11 @@ import Blog6 from "../assets/Blog6.webp";
 import Blog7 from "../assets/Blog7.webp";
 import Blog8 from "../assets/Blog8.webp";
 import Blog9 from "../assets/Blog9.webp";
+import Blog10 from "../assets/Blog10.webp";
 import BlogSaas from "../assets/BlogSaas.webp";
 
 const blogData = [
-// ── Blog 9: Latest Dubai SEO Pricing Guide ───────────────
-  {
-    id: "9",
-    title: "How Much Does SEO Cost (SEO Packages) in Dubai 2026",
-    slug: "how-much-does-seo-cost-packages-dubai-2026",
-    p: "SEO services in Dubai generally cost between AED 1,500 and AED 50,000+ per month in 2026. Compare local, SME, professional, e-commerce and enterprise SEO packages, pricing factors, timelines and deliverables.",
-    image: Blog9,
-    date: "July 20, 2026",
-    time: "18 min read",
-    category: "Marketing",
 
-    metaTitle: "SEO Cost in Dubai 2026: Packages & Pricing | Pendagon",
-    metaDescription:
-      "Discover SEO costs in Dubai in 2026. Compare local, SME and enterprise SEO packages, services, pricing factors, timelines and expected outcomes.",
-    primaryKeyword:
-      "How Much Does SEO Cost (SEO Packages) in Dubai 2026",
-    canonicalPath:
-      "/blog/how-much-does-seo-cost-packages-dubai-2026",
-
-    author: {
-      name: "Muhammed Ajmal N",
-      role: "Digital Marketing Strategist",
-      bio: "Muhammed Ajmal N is a digital marketing strategist with a B.Com in Computer Applications from Kannur University and advanced digital marketing training from Bisaura Technologies. His work covers SEO, Meta Ads, Google Ads, content strategy, social media marketing and conversion-focused website optimization for businesses across India and the GCC.",
-      url: "https://muhammedajmaln.com/",
-    },
-
-    faqItems: [
-      {
-        question: "How much does SEO cost per month in Dubai?",
-        answer:
-          "SEO services in Dubai commonly cost between AED 1,500 and AED 50,000+ per month. Local businesses usually invest near the lower end, while competitive, multilingual, e-commerce and enterprise campaigns require larger budgets.",
-      },
-      {
-        question:
-          "What is the average SEO cost for a small business in Dubai?",
-        answer:
-          "A small local business in Dubai may invest approximately AED 1,500 to AED 5,000 per month, depending on competition, website condition, target locations, content requirements and the number of services being promoted.",
-      },
-      {
-        question: "What is included in a Dubai SEO package?",
-        answer:
-          "A professional SEO package may include keyword research, technical SEO, on-page optimization, content development, internal linking, Google Business Profile optimization, structured data, authority building, analytics and monthly reporting.",
-      },
-      {
-        question: "How much does local SEO cost in Dubai?",
-        answer:
-          "Local SEO in Dubai generally costs around AED 1,500 to AED 5,000 per month. Multi-location companies may pay more because each branch needs separate local pages, Google Business Profile work, citations, content and performance tracking.",
-      },
-      {
-        question: "How much does e-commerce SEO cost in Dubai?",
-        answer:
-          "Smaller e-commerce SEO campaigns may begin around AED 4,000 to AED 12,000 per month. Large stores with thousands of products, multilingual targeting and technical complexity may require AED 15,000 to AED 50,000+ per month.",
-      },
-      {
-        question: "How long does SEO take to show results in Dubai?",
-        answer:
-          "Most businesses should allow three to six months for measurable improvements. New websites, highly competitive industries and enterprise campaigns may require six to twelve months or longer to build sustainable authority and commercial visibility.",
-      },
-      {
-        question: "Can an SEO agency guarantee number-one rankings?",
-        answer:
-          "No ethical SEO provider can guarantee a permanent number-one Google ranking. Results are influenced by competition, website quality, search intent, location, algorithm changes and the consistency of implementation.",
-      },
-      {
-        question: "Does SEO include Google Ads?",
-        answer:
-          "No. SEO and Google Ads are separate services. SEO develops organic search visibility over time, while Google Ads generates paid visibility by charging for clicks or other campaign actions.",
-      },
-      {
-        question: "Is an SEO freelancer cheaper than an agency in Dubai?",
-        answer:
-          "A freelancer is often less expensive because of lower overhead. An agency may provide a broader team covering technical SEO, content, development, design, analytics and digital PR. The correct choice depends on campaign scope.",
-      },
-      {
-        question: "Does GEO require a separate SEO package?",
-        answer:
-          "Not always. Generative search visibility begins with strong technical SEO, original expert content, clear answers, consistent entity information, internal links and reliable sourcing. Advanced research and expert-led content may increase the package scope.",
-      },
-    ],
-
-    sidebar: [
-      { text: "Dubai SEO Cost: Quick Answer", link: "#quick-answer" },
-      { text: "SEO Package Comparison", link: "#package-comparison" },
-      { text: "What SEO Packages Include", link: "#package-includes" },
-      { text: "Local SEO Package", link: "#local-seo-package" },
-      { text: "SME Growth SEO Package", link: "#sme-seo-package" },
-      {
-        text: "Professional SEO Package",
-        link: "#professional-seo-package",
-      },
-      {
-        text: "Enterprise SEO Package",
-        link: "#enterprise-seo-package",
-      },
-      { text: "Factors Affecting SEO Cost", link: "#pricing-factors" },
-      { text: "SEO Pricing by Industry", link: "#industry-pricing" },
-      { text: "SEO Pricing Models", link: "#pricing-models" },
-      { text: "SEO Timeline", link: "#seo-timeline" },
-      { text: "SEO ROI", link: "#seo-roi" },
-      { text: "Cheap SEO and Red Flags", link: "#seo-red-flags" },
-      { text: "Choosing an SEO Package", link: "#choose-package" },
-      { text: "Pendagon Technologies", link: "#pendagon-seo" },
-      { text: "Frequently Asked Questions", link: "#faq" },
-      { text: "About the Author", link: "#author" },
-    ],
-
-    content: (
-      <>
-        <section aria-labelledby="quick-answer">
-          <h2 id="quick-answer" className="text-2xl font-medium my-4">
-            How Much Does SEO Cost in Dubai in 2026?
-          </h2>
-
-          <p className="mb-4">
-            SEO services in Dubai generally cost between{" "}
-            <strong>AED 1,500 and AED 50,000+ per month</strong> in 2026.
-            A local company with one location may spend approximately AED
-            1,500–5,000 per month, while a growing SME commonly invests AED
-            4,000–12,000. Competitive companies, multilingual websites, large
-            e-commerce stores and enterprise brands may require AED
-            15,000–50,000+ per month.
-          </p>
-
-          <p className="mb-4">
-            The final SEO price depends on the business's industry,
-            competition, website size, technical condition, target locations,
-            language requirements, content volume and authority gap. SEO is
-            not a fixed product, so two companies targeting Dubai may require
-            very different strategies and budgets.
-          </p>
-
-          <div className="rounded-2xl border border-gray-200 bg-gray-50 p-5 my-6">
-            <h3 className="text-xl font-medium mb-3">
-              Dubai SEO Pricing: Short Answer
-            </h3>
-            <ul className="list-disc list-inside space-y-2">
-              <li>
-                <strong>Local or starter SEO:</strong> AED 1,500–5,000 per
-                month
-              </li>
-              <li>
-                <strong>SME or growth SEO:</strong> AED 4,000–12,000 per
-                month
-              </li>
-              <li>
-                <strong>Professional SEO:</strong> AED 8,000–15,000 per
-                month
-              </li>
-              <li>
-                <strong>Enterprise SEO:</strong> AED 15,000–50,000+ per
-                month
-              </li>
-              <li>
-                <strong>Freelance SEO consulting:</strong> approximately AED
-                200–600 per hour
-              </li>
-              <li>
-                <strong>One-time SEO audit:</strong> approximately AED
-                2,500–15,000+
-              </li>
-              <li>
-                <strong>Initial timeline:</strong> usually three to six
-                months
-              </li>
-              <li>
-                <strong>Competitive timeline:</strong> six to twelve months
-                or longer
-              </li>
-            </ul>
-          </div>
-
-          <p className="mb-4 text-sm text-gray-600">
-            These are indicative market ranges rather than fixed industry
-            rates. Every quotation should be based on a website audit,
-            competition analysis and clearly defined deliverables.
-          </p>
-        </section>
-
-        <section aria-labelledby="package-comparison">
-          <h2
-            id="package-comparison"
-            className="text-2xl font-medium my-4"
-          >
-            SEO Packages in Dubai: 2026 Price Comparison
-          </h2>
-
-          <div className="overflow-x-auto my-6">
-            <table className="min-w-full border-collapse border border-gray-300 text-left">
-              <thead>
-                <tr className="bg-gray-100">
-                  <th className="border border-gray-300 p-3">SEO Package</th>
-                  <th className="border border-gray-300 p-3">
-                    Estimated Monthly Cost
-                  </th>
-                  <th className="border border-gray-300 p-3">
-                    Best Suited For
-                  </th>
-                  <th className="border border-gray-300 p-3">
-                    Typical Focus
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="border border-gray-300 p-3">Local SEO</td>
-                  <td className="border border-gray-300 p-3">
-                    AED 1,500–5,000
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Clinics, salons, restaurants, shops and local services
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Google Maps, location pages, reviews and local citations
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 p-3">
-                    SME Growth SEO
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    AED 4,000–12,000
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Growing businesses, B2B brands and smaller e-commerce
-                    stores
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Technical SEO, content, service pages and authority
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 p-3">
-                    Professional SEO
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    AED 8,000–15,000
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Competitive brands and multi-location businesses
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Content clusters, digital PR and conversion measurement
-                  </td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-300 p-3">
-                    Enterprise SEO
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    AED 15,000–50,000+
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Large e-commerce, real estate, finance and international
-                    businesses
-                  </td>
-                  <td className="border border-gray-300 p-3">
-                    Multilingual SEO, scalability, advanced technical SEO and
-                    digital PR
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <p className="mb-4">
-            The ranges overlap because package names are not standardized. A
-            technically complex local website can require a larger budget than
-            a simple national website. The most useful proposal explains the
-            required work instead of selling only a fixed number of keywords.
-          </p>
-        </section>
-
-        <section aria-labelledby="package-includes">
-          <h2 id="package-includes" className="text-2xl font-medium my-4">
-            What Does a Professional SEO Package Include?
-          </h2>
-
-          <p className="mb-4">
-            A complete SEO package should improve more than keyword rankings.
-            It should strengthen technical health, content relevance, local
-            visibility, brand authority, user experience and the website's
-            ability to generate qualified enquiries or sales.
-          </p>
-
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Technical SEO and website audit</li>
-            <li>Keyword and search-intent research</li>
-            <li>Competitor and content-gap analysis</li>
-            <li>Website architecture improvement</li>
-            <li>On-page SEO and metadata optimization</li>
-            <li>Service and location page optimization</li>
-            <li>Internal-linking strategy</li>
-            <li>Content strategy and blog publishing</li>
-            <li>Google Business Profile optimization</li>
-            <li>Local citation and review guidance</li>
-            <li>Backlink analysis and ethical authority development</li>
-            <li>Core Web Vitals monitoring</li>
-            <li>Structured data implementation</li>
-            <li>Arabic and multilingual SEO</li>
-            <li>GA4, Search Console and conversion reporting</li>
-            <li>AEO and generative search readiness</li>
-          </ul>
-
-          <p className="mb-4">
-            The number and depth of these deliverables determine the actual
-            cost. A proposal should clearly state which pages, locations,
-            languages and technical tasks are included.
-          </p>
-        </section>
-
-        <section aria-labelledby="local-seo-package">
-          <h2
-            id="local-seo-package"
-            className="text-2xl font-medium my-4"
-          >
-            1. Local SEO Package: AED 1,500–5,000 Per Month
-          </h2>
-
-          <p className="mb-4">
-            A local SEO package is designed for businesses serving customers
-            in a specific Dubai area or operating from one or a few physical
-            locations. It is suitable for clinics, salons, restaurants,
-            maintenance companies, cleaning services, car rental businesses,
-            training institutes and other local service providers.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Typical Local SEO Deliverables
-          </h3>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Google Business Profile optimization</li>
-            <li>Local keyword and competitor research</li>
-            <li>Optimization of 5–15 priority pages</li>
-            <li>Location-specific landing pages</li>
-            <li>Name, address and phone consistency</li>
-            <li>Local directory citations</li>
-            <li>Review acquisition guidance</li>
-            <li>Basic technical corrections</li>
-            <li>Local content publishing</li>
-            <li>Monthly rankings, calls and lead reporting</li>
-          </ul>
-
-          <p className="mb-4">
-            Local SEO cost rises when a company has several branches, targets
-            highly competitive neighbourhoods or needs separate pages for
-            multiple Dubai communities.
-          </p>
-        </section>
-
-        <section aria-labelledby="sme-seo-package">
-          <h2 id="sme-seo-package" className="text-2xl font-medium my-4">
-            2. SME Growth SEO Package: AED 4,000–12,000 Per Month
-          </h2>
-
-          <p className="mb-4">
-            An SME package is appropriate for growing companies that need
-            broader organic visibility across service pages, commercial
-            searches and informational content. It is commonly used by B2B
-            businesses, technology companies, construction firms, educational
-            institutions, healthcare groups and smaller e-commerce stores.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Typical SME SEO Deliverables
-          </h3>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Full technical SEO audit</li>
-            <li>Optimization of 15–40 priority pages</li>
-            <li>Keyword mapping and search-intent analysis</li>
-            <li>Content-gap and competitor analysis</li>
-            <li>New service and commercial landing pages</li>
-            <li>Regular expert-led content</li>
-            <li>Internal-linking architecture</li>
-            <li>Structured data</li>
-            <li>Core Web Vitals improvements</li>
-            <li>Backlink profile review and outreach</li>
-            <li>Lead and conversion tracking</li>
-          </ul>
-
-          <p className="mb-4">
-            This package should connect each important service with a dedicated
-            page and build supporting content around the questions customers
-            ask before they contact the business.
-          </p>
-        </section>
-
-        <section aria-labelledby="professional-seo-package">
-          <h2
-            id="professional-seo-package"
-            className="text-2xl font-medium my-4"
-          >
-            3. Professional SEO Package: AED 8,000–15,000 Per Month
-          </h2>
-
-          <p className="mb-4">
-            Professional SEO is intended for businesses competing in
-            commercially valuable markets where established companies already
-            invest heavily in technical SEO, content and authority development.
-          </p>
-
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Advanced technical analysis</li>
-            <li>Large-scale keyword and page mapping</li>
-            <li>Content hub and topic-cluster development</li>
-            <li>Digital PR and editorial outreach</li>
-            <li>Conversion-rate and user-journey analysis</li>
-            <li>Advanced schema implementation</li>
-            <li>Arabic and English content coordination</li>
-            <li>Detailed competitor benchmarking</li>
-            <li>Weekly or bi-weekly performance reviews</li>
-            <li>Dedicated SEO strategy management</li>
-          </ul>
-
-          <p className="mb-4">
-            At this level, the goal is not only to rank individual keywords.
-            The campaign should establish the company as a recognizable and
-            trusted entity within its industry.
-          </p>
-        </section>
-
-        <section aria-labelledby="enterprise-seo-package">
-          <h2
-            id="enterprise-seo-package"
-            className="text-2xl font-medium my-4"
-          >
-            4. Enterprise SEO Package: AED 15,000–50,000+ Per Month
-          </h2>
-
-          <p className="mb-4">
-            Enterprise SEO is designed for websites with hundreds or thousands
-            of pages, multiple markets, several languages or complex technical
-            systems. It is often required by property portals, major real
-            estate developers, banks, large e-commerce stores, healthcare
-            networks, marketplaces and multinational organizations.
-          </p>
-
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Enterprise technical audits</li>
-            <li>Crawl-budget and indexation optimization</li>
-            <li>Log-file and JavaScript SEO analysis</li>
-            <li>Faceted-navigation management</li>
-            <li>Large-scale internal linking</li>
-            <li>International keyword research</li>
-            <li>Arabic and multilingual content governance</li>
-            <li>Hreflang implementation</li>
-            <li>Advanced structured data</li>
-            <li>SEO testing and automation</li>
-            <li>Digital PR and brand authority development</li>
-            <li>Cross-team implementation support</li>
-            <li>Executive-level performance reporting</li>
-          </ul>
-
-          <p className="mb-4">
-            Google's guidance on localized versions explains that hreflang can
-            help search engines understand language and regional alternatives.
-            Learn more in{" "}
-            <a
-              href="https://developers.google.com/search/docs/specialty/international/localized-versions"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Google's international SEO documentation
-            </a>
-            .
-          </p>
-        </section>
-
-        <section aria-labelledby="pricing-factors">
-          <h2 id="pricing-factors" className="text-2xl font-medium my-4">
-            10 Factors That Determine SEO Pricing in Dubai
-          </h2>
-
-          <h3 className="text-xl font-medium my-3">
-            1. Industry Competition
-          </h3>
-          <p className="mb-4">
-            Real estate, healthcare, finance, insurance, business setup,
-            tourism, legal services and e-commerce are highly competitive.
-            Ranking in these markets normally requires more content, stronger
-            authority and a larger technical scope.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">2. Website Size</h3>
-          <p className="mb-4">
-            A 10-page service website requires less work than an e-commerce
-            store with thousands of products. Large websites need continuous
-            crawling, duplicate-content control, canonical management,
-            internal-linking improvements and structured data maintenance.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            3. Current Technical Condition
-          </h3>
-          <p className="mb-4">
-            An older or poorly structured website may first need indexing
-            corrections, migration support, mobile improvements, speed work,
-            broken-link repairs, redirect mapping and URL restructuring.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            4. Number of Target Locations
-          </h3>
-          <p className="mb-4">
-            A company targeting only Dubai needs a smaller geographic strategy
-            than one targeting Dubai, Abu Dhabi, Sharjah, the full UAE and
-            several GCC countries. Each market may require separate research,
-            pages and authority signals.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            5. Multilingual SEO
-          </h3>
-          <p className="mb-4">
-            English and Arabic SEO should be treated as separate search
-            markets. Native keyword research, cultural localization, metadata,
-            internal links, language-specific content and correct hreflang
-            implementation increase the workload.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            6. Content Volume and Expertise
-          </h3>
-          <p className="mb-4">
-            Service pages, location pages, buying guides, comparisons, case
-            studies, FAQs and expert articles require research, writing,
-            editing and subject review. Google recommends helpful, reliable,
-            people-first content with clear authorship and trust signals.
-          </p>
-
-          <p className="mb-4">
-            Review{" "}
-            <a
-              href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Google's guidance on helpful and reliable content
-            </a>{" "}
-            for more information.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            7. Authority and Digital PR
-          </h3>
-          <p className="mb-4">
-            Ethical authority development can involve original research,
-            expert commentary, industry publications, partnerships, useful
-            tools and relevant editorial coverage. High-quality links require
-            more effort than automated directory submissions.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            8. Number of Pages Requiring Optimization
-          </h3>
-          <p className="mb-4">
-            Every product, service, category and location page requires
-            individual search-intent analysis, headings, content, metadata,
-            internal links, images, structured data and conversion elements.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            9. Reporting and Conversion Measurement
-          </h3>
-          <p className="mb-4">
-            Professional campaigns should track qualified enquiries, phone
-            calls, WhatsApp clicks, forms, purchases, revenue and cost per
-            organic lead—not rankings alone. CRM and revenue attribution add
-            more implementation work but improve decision-making.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            10. AEO and Generative Engine Optimization
-          </h3>
-          <p className="mb-4">
-            AEO and GEO improve how easily search and generative systems can
-            interpret, summarize and reference content. Useful elements
-            include direct answers, question-based headings, reliable
-            sourcing, original expert insight, consistent entity information,
-            comparison tables and updated author credentials.
-          </p>
-
-          <p className="mb-4">
-            Google explains that the same foundational SEO practices remain
-            relevant for AI search experiences. Read{" "}
-            <a
-              href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Google's AI features and website guidance
-            </a>
-            .
-          </p>
-        </section>
-
-        <section aria-labelledby="industry-pricing">
-          <h2 id="industry-pricing" className="text-2xl font-medium my-4">
-            SEO Pricing by Industry in Dubai
-          </h2>
-
-          <h3 className="text-xl font-medium my-3">Real Estate SEO</h3>
-          <p className="mb-4">
-            Real estate SEO often requires community pages, property-type
-            pages, developer pages, off-plan project content, investment
-            guides, multilingual targeting, image optimization, video SEO and
-            digital PR. Because of the competition and page volume, it usually
-            requires a professional or enterprise budget.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">Healthcare SEO</h3>
-          <p className="mb-4">
-            Healthcare SEO requires accurate treatment pages, doctor profiles,
-            medical review, clinic location pages, patient-focused FAQs,
-            strong authorship and careful conversion tracking. Unsupported
-            medical claims and exaggerated outcomes should be avoided.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">E-Commerce SEO</h3>
-          <p className="mb-4">
-            E-commerce SEO includes category optimization, product data,
-            variants, canonical management, faceted navigation, internal
-            search controls, Core Web Vitals, image optimization and product
-            structured data.
-          </p>
-
-          <p className="mb-4">
-            Google explains that product structured data can communicate
-            details such as price and availability. See{" "}
-            <a
-              href="https://developers.google.com/search/docs/appearance/structured-data/product"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Google's product structured data documentation
-            </a>
-            .
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Finance and Legal SEO
-          </h3>
-          <p className="mb-4">
-            Finance and legal content requires expert review, clear authorship,
-            reliable sources, update dates, compliance awareness and
-            transparent disclaimers. These sectors often require larger
-            budgets because trust and accuracy are critical.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Hospitality and Tourism SEO
-          </h3>
-          <p className="mb-4">
-            Hotels, tourism operators and hospitality brands may require
-            destination guides, multilingual content, image and video SEO,
-            review management, seasonal pages, international targeting and
-            booking conversion optimization.
-          </p>
-        </section>
-
-        <section aria-labelledby="pricing-models">
-          <h2 id="pricing-models" className="text-2xl font-medium my-4">
-            Common SEO Pricing Models in Dubai
-          </h2>
-
-          <h3 className="text-xl font-medium my-3">Monthly Retainer</h3>
-          <p className="mb-4">
-            The monthly retainer is the most common model for continuous
-            technical monitoring, content, on-page optimization, authority
-            development, reporting and strategy reviews.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Project-Based Pricing
-          </h3>
-          <p className="mb-4">
-            Project pricing is suitable for a technical audit, website
-            migration, international SEO setup, content audit, penalty
-            investigation or e-commerce restructuring.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">Hourly Consulting</h3>
-          <p className="mb-4">
-            Hourly consulting may suit companies that already have developers,
-            writers and an internal marketing team but need specialist
-            strategy, troubleshooting or implementation guidance.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Performance-Based SEO
-          </h3>
-          <p className="mb-4">
-            Performance pricing links part of the fee to agreed outcomes such
-            as qualified leads, revenue or non-branded organic visibility. The
-            contract must define attribution, measurement and responsibilities
-            clearly.
-          </p>
-        </section>
-
-        <section aria-labelledby="seo-timeline">
-          <h2 id="seo-timeline" className="text-2xl font-medium my-4">
-            How Long Does SEO Take in Dubai?
-          </h2>
-
-          <h3 className="text-xl font-medium my-3">
-            Months 1–2: Research and Technical Foundation
-          </h3>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Website and analytics audit</li>
-            <li>Keyword and competitor research</li>
-            <li>Indexing and technical corrections</li>
-            <li>Page mapping and content priorities</li>
-            <li>Google Business Profile improvements</li>
-          </ul>
-
-          <h3 className="text-xl font-medium my-3">
-            Months 3–4: Relevance and Content Growth
-          </h3>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Service page improvements</li>
-            <li>New landing pages and supporting content</li>
-            <li>Internal links and structured data</li>
-            <li>Initial authority development</li>
-            <li>Early keyword movement</li>
-          </ul>
-
-          <h3 className="text-xl font-medium my-3">
-            Months 5–6: Visibility and Conversion Growth
-          </h3>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Wider non-branded visibility</li>
-            <li>Organic traffic improvement</li>
-            <li>More qualified enquiries</li>
-            <li>Content refreshes</li>
-            <li>Conversion optimization</li>
-          </ul>
-
-          <h3 className="text-xl font-medium my-3">
-            Months 6–12+: Competitive Authority
-          </h3>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Topical authority development</li>
-            <li>Digital PR</li>
-            <li>Multilingual expansion</li>
-            <li>Competitive commercial rankings</li>
-            <li>Revenue and conversion optimization</li>
-          </ul>
-
-          <p className="mb-4">
-            These stages are not guarantees. A new website in a competitive
-            Dubai market normally requires more time than an established
-            domain with strong technical health and authority.
-          </p>
-        </section>
-
-        <section aria-labelledby="seo-roi">
-          <h2 id="seo-roi" className="text-2xl font-medium my-4">
-            How Should SEO ROI Be Measured?
-          </h2>
-
-          <p className="mb-4">
-            SEO ROI should be calculated using lead value, gross profit or
-            revenue—not rankings alone.
-          </p>
-
-          <div className="rounded-xl border border-gray-200 p-5 my-6">
-            <p className="font-medium mb-2">
-              SEO ROI = (Organic profit generated − SEO investment) ÷ SEO
-              investment × 100
-            </p>
-          </div>
-
-          <p className="mb-4">
-            For a lead-generation business, measure organic enquiries,
-            qualified lead rate, sales conversion rate, average customer value,
-            gross profit and the cost of the SEO campaign.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Simplified Example
-          </h3>
-          <p className="mb-4">
-            A company invests AED 8,000 in SEO and receives 50 organic
-            enquiries. If 20 are qualified, five become customers and each
-            sale creates AED 5,000 in gross profit, the campaign produces AED
-            25,000 in estimated gross profit. After subtracting the SEO cost,
-            the estimated net return is AED 17,000.
-          </p>
-
-          <p className="mb-4">
-            Accurate ROI measurement should also consider sales cycles,
-            repeat purchases, customer lifetime value and customers who used
-            several channels before converting.
-          </p>
-        </section>
-
-        <section aria-labelledby="seo-red-flags">
-          <h2 id="seo-red-flags" className="text-2xl font-medium my-4">
-            Is Cheap SEO Worth It? Important Red Flags
-          </h2>
-
-          <p className="mb-4">
-            A low-cost service can be useful when it has a clearly limited
-            scope, such as a basic audit or Google Business Profile setup. It
-            becomes risky when a provider promises comprehensive SEO,
-            technical work, daily content, hundreds of backlinks and instant
-            leads for an unrealistically low fee.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Avoid Providers That Offer
-          </h3>
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Guaranteed number-one rankings</li>
-            <li>Guaranteed results within 30 days</li>
-            <li>Thousands of automated backlinks</li>
-            <li>No access to analytics or Search Console</li>
-            <li>No explanation of methods</li>
-            <li>No technical audit</li>
-            <li>No content quality or review process</li>
-            <li>No conversion measurement</li>
-            <li>The same package for every business</li>
-            <li>Fake traffic or misleading reports</li>
-          </ul>
-
-          <p className="mb-4">
-            A reliable SEO provider should explain what will be done, why it
-            matters, how progress will be measured and which factors remain
-            outside the agency's control.
-          </p>
-        </section>
-
-        <section aria-labelledby="choose-package">
-          <h2 id="choose-package" className="text-2xl font-medium my-4">
-            How to Choose the Right SEO Package in Dubai
-          </h2>
-
-          <p className="mb-4">
-            Before selecting a package, ask the provider the following
-            questions:
-          </p>
-
-          <ol className="list-decimal list-inside mb-6 space-y-2">
-            <li>Which pages and services will be prioritized?</li>
-            <li>How were the target keywords selected?</li>
-            <li>Does the package include technical implementation?</li>
-            <li>Who writes and reviews the content?</li>
-            <li>How many pages will be optimized?</li>
-            <li>Is Google Business Profile management included?</li>
-            <li>How will links and authority be developed?</li>
-            <li>Are Arabic and multilingual services included?</li>
-            <li>Which conversions and revenue events will be tracked?</li>
-            <li>Will I receive GA4 and Search Console access?</li>
-            <li>How often will performance be reviewed?</li>
-            <li>What work is excluded from the quotation?</li>
-          </ol>
-
-          <p className="mb-4">
-            Choose a package based on the business outcome and the amount of
-            work required—not only the number of keywords shown in the
-            proposal.
-          </p>
-        </section>
-
-        <section aria-labelledby="pendagon-seo">
-          <h2 id="pendagon-seo" className="text-2xl font-medium my-4">
-            Grow Your Dubai Search Visibility with Pendagon Technologies
-          </h2>
-
-          <p className="mb-4">
-            <a
-              href="https://pendagon.in/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              Pendagon Technologies
-            </a>{" "}
-            supports businesses with SEO, content strategy, website
-            development, UI/UX, performance marketing and brand-focused
-            digital growth solutions.
-          </p>
-
-          <p className="mb-4">
-            Our SEO approach connects technical optimization, search intent,
-            entity relationships, local relevance, topical authority,
-            answer-first content and conversion measurement. This helps build
-            a website that is easier for customers, search engines and
-            generative systems to understand.
-          </p>
-
-          <ul className="list-disc list-inside mb-6 space-y-2">
-            <li>Technical SEO</li>
-            <li>Entity-based and semantic content</li>
-            <li>Search-intent and keyword research</li>
-            <li>Local and service-page optimization</li>
-            <li>Topical authority development</li>
-            <li>AEO and generative search readiness</li>
-            <li>Conversion-focused website improvements</li>
-            <li>Transparent performance measurement</li>
-          </ul>
-
-          <p className="mb-4 font-medium">Do it once. Do it right.</p>
-
-          <p className="mb-4">
-            Visit{" "}
-            <a
-              href="https://pendagon.in/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              pendagon.in
-            </a>{" "}
-            to discuss your SEO requirements and request a website analysis.
-          </p>
-        </section>
-
-        <section aria-labelledby="faq">
-          <h2 id="faq" className="text-2xl font-medium my-4">
-            Frequently Asked Questions
-          </h2>
-
-          <h3 className="text-xl font-medium my-3">
-            How much does SEO cost per month in Dubai?
-          </h3>
-          <p className="mb-4">
-            SEO commonly costs AED 1,500–50,000+ per month in Dubai. Local
-            businesses may begin near the lower end, while competitive,
-            multilingual and enterprise campaigns require larger budgets.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            What is the average SEO cost for a small business in Dubai?
-          </h3>
-          <p className="mb-4">
-            A small local business may invest approximately AED 1,500–5,000
-            per month, depending on the website, competition, locations and
-            amount of content required.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            What does a basic SEO package include?
-          </h3>
-          <p className="mb-4">
-            A basic package may include keyword research, optimization of
-            priority pages, technical checks, Google Business Profile
-            improvements, local citations and monthly reporting.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Is AED 1,000 per month enough for SEO in Dubai?
-          </h3>
-          <p className="mb-4">
-            AED 1,000 may cover a consultation or limited local task. It is
-            unlikely to fund complete technical SEO, regular expert content
-            and authority development in a competitive industry.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            How much does local SEO cost in Dubai?
-          </h3>
-          <p className="mb-4">
-            Local SEO commonly costs around AED 1,500–5,000 per month.
-            Multi-location businesses may pay more because every branch
-            requires individual optimization and monitoring.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            How much does e-commerce SEO cost?
-          </h3>
-          <p className="mb-4">
-            Smaller e-commerce campaigns may begin around AED 4,000–12,000 per
-            month. Large stores with thousands of pages and multilingual
-            targeting may require AED 15,000–50,000+.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Is an SEO freelancer cheaper than an agency?
-          </h3>
-          <p className="mb-4">
-            A freelancer is often cheaper because of lower overhead. An agency
-            may provide technical specialists, writers, developers, designers,
-            analysts and digital PR support through one team.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            How long should a business invest in SEO?
-          </h3>
-          <p className="mb-4">
-            Most businesses should plan for at least six months of consistent
-            implementation. Competitive markets may require twelve months or
-            longer to develop strong commercial visibility.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Can an agency guarantee first position on Google?
-          </h3>
-          <p className="mb-4">
-            No ethical provider can guarantee a permanent number-one ranking.
-            Search results change according to competition, location, device,
-            search intent and algorithm updates.
-          </p>
-
-          <h3 className="text-xl font-medium my-3">
-            Does SEO include Google Ads?
-          </h3>
-          <p className="mb-4">
-            No. SEO develops organic visibility, while Google Ads generates
-            paid visibility. Many businesses use both: ads for immediate
-            demand and SEO for long-term growth.
-          </p>
-        </section>
-
-        <section aria-labelledby="author">
-          <h2 id="author" className="text-2xl font-medium my-4">
-            About the Author
-          </h2>
-
-          <p className="mb-4">
-            <strong>Muhammed Ajmal N</strong> is a digital marketing
-            strategist and content specialist focused on SEO, Search Engine
-            Marketing, Meta Ads, social media marketing and
-            conversion-oriented website strategies.
-          </p>
-
-          <p className="mb-4">
-            He holds a B.Com in Computer Applications from Kannur University
-            and has completed advanced digital marketing training with
-            practical experience in search optimization, campaign management,
-            content strategy and website development.
-          </p>
-
-          <p className="mb-4">
-            His approach combines search-intent analysis, semantic structure,
-            entity relationships, technical optimization and measurable
-            business goals to help brands build sustainable online visibility.
-          </p>
-
-          <p className="mb-4">
-            Learn more at{" "}
-            <a
-              href="https://muhammedajmaln.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              muhammedajmaln.com
-            </a>
-            .
-          </p>
-        </section>
-
-        <section aria-labelledby="methodology">
-          <h2 id="methodology" className="text-2xl font-medium my-4">
-            Pricing Methodology and Disclaimer
-          </h2>
-
-          <p className="mb-4">
-            The pricing ranges in this guide are indicative estimates designed
-            to help Dubai businesses understand common differences between
-            local, growth, professional and enterprise SEO scopes. Actual
-            quotations vary according to competition, website condition,
-            provider experience, content volume, target markets, languages and
-            technical complexity.
-          </p>
-
-          <p className="mb-4 text-sm text-gray-600">
-            No SEO provider can guarantee a particular ranking, traffic level
-            or financial return. Sustainable results depend on competition,
-            implementation quality, website authority, market demand, budget
-            and the consistency of the strategy.
-          </p>
-        </section>
-      </>
-    ),
-  },
   // ── Blog 1 ────────────────────────────────────────────────
   {
     id: "1",
@@ -4703,6 +3625,368 @@ const blogData = [
             implementation quality, website authority, market demand, budget
             and the consistency of the strategy.
           </p>
+        </section>
+      </>
+    ),
+  },
+
+{
+    id: "10",
+    title: "Web Design Dubai: Professional Website Design Services for Businesses",
+    slug: "web-design-dubai",
+    p: "Looking for web design in Dubai? Learn about website costs, important features, timelines, SEO-friendly development and professional web design services from Pendagon Technologies.",
+    image: Blog10,
+    date: "July 21, 2026",
+    time: "14 min read",
+    category: "Web Design",
+
+    metaTitle: "Web Design Dubai: Professional Website Design Services",
+    metaDescription:
+      "Looking for web design in Dubai? Discover website costs, features, timelines and SEO-friendly web design services from Pendagon Technologies.",
+    primaryKeyword: "Web Design Dubai",
+    canonicalPath: "/blog/web-design-dubai",
+
+    author: {
+      name: "Muhammed Ajmal N",
+      role: "Digital Marketing Strategist",
+      bio: "Muhammed Ajmal N is a digital marketing strategist specialising in SEO, search-focused content, social media marketing, Meta Ads, Google Ads and conversion-focused website strategies for businesses across India and the GCC.",
+      url: "https://muhammedajmaln.com/",
+    },
+
+    faqItems: [
+      {
+        question: "How much does a website cost in Dubai?",
+        answer:
+          "A simple business website may start around AED 4,000, while custom corporate and ecommerce projects can cost much more. The final price depends on pages, features, design, content and integrations.",
+      },
+      {
+        question: "How long does website development take?",
+        answer:
+          "A small website may take around three to five weeks. Larger corporate, ecommerce or custom projects may take two to four months or more.",
+      },
+      {
+        question: "Does a Dubai business need an Arabic website?",
+        answer:
+          "Not every business needs one. Arabic can be valuable when your target customers prefer it or when you serve a wider local audience.",
+      },
+      {
+        question: "Can Pendagon redesign an existing website?",
+        answer:
+          "Yes. A redesign can improve the visual style, mobile experience, speed, content structure and conversion journey.",
+      },
+      {
+        question: "Will my website be mobile-friendly?",
+        answer:
+          "Yes. Responsive design helps the website adjust to common mobile, tablet and desktop screen sizes.",
+      },
+      {
+        question: "Does website design include SEO?",
+        answer:
+          "SEO-ready design normally includes clean structure, headings, metadata, internal links and performance basics. Ongoing SEO, content production and link building may be separate services.",
+      },
+      {
+        question: "Which platform is best for my website?",
+        answer:
+          "WordPress suits many content and business websites. Shopify or WooCommerce may suit ecommerce, while React or custom development may be better for special features. The right choice depends on your needs.",
+      },
+      {
+        question: "Does Pendagon provide website maintenance?",
+        answer:
+          "Maintenance can be included based on the agreed package. It may cover updates, backups, security checks, content changes and technical support.",
+      },
+    ],
+
+    sidebar: [
+      { text: "What Is Web Design?", link: "#what-is-web-design" },
+      { text: "Why Does Your Dubai Business Need a Professional Website?", link: "#why-dubai-business-needs-website" },
+      { text: "What Makes a Good Website for a Dubai Business?", link: "#good-dubai-business-website" },
+      { text: "Web Design Services for Dubai Businesses", link: "#web-design-services" },
+      { text: "Our Web Design and Development Process", link: "#design-development-process" },
+      { text: "How Much Does Web Design Cost in Dubai?", link: "#web-design-cost-dubai" },
+      { text: "How Long Does It Take to Build a Website?", link: "#website-timeline" },
+      { text: "Web Design vs Web Development", link: "#web-design-vs-development" },
+      { text: "SEO-Friendly Web Design for Better Google Visibility", link: "#seo-friendly-web-design" },
+      { text: "Common Web Design Mistakes to Avoid", link: "#web-design-mistakes" },
+      { text: "How to Choose the Best Web Design Company in Dubai", link: "#choose-web-design-company" },
+      { text: "The Dubai 7-Point Website Check", link: "#dubai-website-check" },
+      { text: "Why Choose Pendagon Technologies for Web Design in Dubai?", link: "#why-pendagon" },
+      { text: "Start Your Website Project with Pendagon", link: "#start-project" },
+      { text: "Frequently Asked Questions", link: "#faq" },
+      { text: "About the Author", link: "#author" },
+      { text: "Sources", link: "#sources" },
+    ],
+
+    content: (
+      <>
+        <header className="mb-6">
+          <h1 className="text-3xl md:text-4xl font-semibold mb-4">Web Design Dubai: Professional Website Design Services for Businesses</h1>
+        </header>
+          <p className="mb-4">A good website should do more than look attractive. It should explain your business, build trust and turn visitors into enquiries.</p>
+          <p className="mb-4">Dubai is a fast-moving business market. Customers often check a company online before they call, visit or buy. Professional web design helps your business make that first impression count.</p>
+          <p className="mb-4">This guide explains website design services, important features, costs and timelines. It will also help you choose the right web design company for your Dubai business.</p>
+        <section aria-labelledby="what-is-web-design">
+          <h2 id="what-is-web-design" className="text-2xl font-medium my-4">What Is Web Design?</h2>
+          <p className="mb-4">Web design is the process of planning how a website looks and works. It includes the layout, colours, fonts, images, navigation and user experience.</p>
+          <p className="mb-4">Web development turns that design into a working website. A complete project normally includes UI/UX design, development, content, search engine optimisation, testing and launch support.</p>
+        </section>
+
+        <section aria-labelledby="why-dubai-business-needs-website">
+          <h2 id="why-dubai-business-needs-website" className="text-2xl font-medium my-4">Why Does Your Dubai Business Need a Professional Website?</h2>
+          <p className="mb-4">The UAE has a highly connected audience. The International Trade Administration reports that internet and mobile access are close to 100% of the population. ECDB estimates that UAE ecommerce generated about US$8.13 billion in revenue in 2025.</p>
+          <p className="mb-4">These figures show why a clear and mobile-friendly website is no longer optional. It is an important business asset.</p>
+          <h3 className="text-xl font-medium my-3">Build trust from the first visit</h3>
+          <p className="mb-4">Customers judge a business quickly. A modern website with clear contact details, real work and useful information makes the company look more reliable.</p>
+          <h3 className="text-xl font-medium my-3">Generate enquiries and sales</h3>
+          <p className="mb-4">A website can guide users towards a call, WhatsApp chat, quotation form, booking or purchase. Every important page should have one clear next step.</p>
+          <h3 className="text-xl font-medium my-3">Reach customers through Google</h3>
+          <p className="mb-4">An SEO-friendly website helps search engines understand your services and locations. It can support visibility for searches linked to Dubai, the UAE and nearby service areas.</p>
+          <h3 className="text-xl font-medium my-3">Stay available all day</h3>
+          <p className="mb-4">Your website can answer common questions even when your team is offline. This is useful in Dubai, where customers and business partners may come from different time zones.</p>
+        </section>
+
+        <section aria-labelledby="good-dubai-business-website">
+          <h2 id="good-dubai-business-website" className="text-2xl font-medium my-4">What Makes a Good Website for a Dubai Business?</h2>
+          <h3 className="text-xl font-medium my-3">1. Mobile-responsive design</h3>
+          <p className="mb-4">The website should work smoothly on mobiles, tablets and desktops. Buttons must be easy to tap, text must be readable and forms must be simple.</p>
+          <h3 className="text-xl font-medium my-3">2. Fast loading speed</h3>
+          <p className="mb-4">Heavy images, videos and scripts can slow a website. Google recommends a Largest Contentful Paint of 2.5 seconds or less, an Interaction to Next Paint of 200 milliseconds or less, and a Cumulative Layout Shift score of 0.1 or less.</p>
+          <h3 className="text-xl font-medium my-3">3. Simple navigation</h3>
+          <p className="mb-4">Visitors should find services, prices, work samples and contact details without confusion. A simple menu usually works better than too many choices.</p>
+          <h3 className="text-xl font-medium my-3">4. English and Arabic support</h3>
+          <p className="mb-4">Many Dubai businesses serve both local and international customers. A bilingual English-Arabic website can improve reach when the content is professionally translated and the Arabic layout supports right-to-left reading.</p>
+          <h3 className="text-xl font-medium my-3">5. Local contact options</h3>
+          <p className="mb-4">Add a UAE phone number, WhatsApp button, enquiry form, business hours and service location when available. Keep the same business details across the website, Google Business Profile and trusted directories.</p>
+          <h3 className="text-xl font-medium my-3">6. Search-friendly structure</h3>
+          <p className="mb-4">Each service needs a useful page with a clear title, one main heading and relevant content. Clean URLs, internal links, image alt text, schema markup and an XML sitemap also support SEO.</p>
+          <h3 className="text-xl font-medium my-3">7. Security and privacy</h3>
+          <p className="mb-4">Use HTTPS, an SSL certificate, secure hosting, software updates, backups and spam protection. If the site collects personal information, use a clear privacy notice and handle data in line with applicable UAE requirements.</p>
+        </section>
+
+        <section aria-labelledby="web-design-services">
+          <h2 id="web-design-services" className="text-2xl font-medium my-4">Web Design Services for Dubai Businesses</h2>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>Corporate website design for professional service companies and larger organisations.</li>
+            <li>Small-business websites for clinics, restaurants, shops, consultants and local service providers.</li>
+            <li>Ecommerce development using Shopify, WooCommerce or a suitable custom solution.</li>
+            <li>Landing pages for Google Ads, Meta Ads and lead-generation campaigns.</li>
+            <li>Website redesign for old, slow or confusing websites.</li>
+            <li>Custom web development for portals, booking systems and special business workflows.</li>
+            <li>Website maintenance for updates, security, backups and performance checks.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="design-development-process">
+          <h2 id="design-development-process" className="text-2xl font-medium my-4">Our Web Design and Development Process</h2>
+          <h3 className="text-xl font-medium my-3">Step 1: Business and audience research</h3>
+          <p className="mb-4">We understand your services, customers, competitors and goals. This keeps the website focused on real business needs.</p>
+          <h3 className="text-xl font-medium my-3">Step 2: Website planning</h3>
+          <p className="mb-4">We prepare the page structure and user journey. Important pages, calls to action and content requirements are decided before design starts.</p>
+          <h3 className="text-xl font-medium my-3">Step 3: UI/UX design</h3>
+          <p className="mb-4">We design a clean visual system that matches your brand. The layout is planned for easy reading and smooth use on mobile devices.</p>
+          <h3 className="text-xl font-medium my-3">Step 4: Development</h3>
+          <p className="mb-4">The approved design is developed using the right platform. This may be WordPress, Shopify, React or a custom technology stack.</p>
+          <h3 className="text-xl font-medium my-3">Step 5: Content and SEO setup</h3>
+          <p className="mb-4">Page titles, headings, content, internal links and metadata are organised around search intent. Google Analytics 4 and Google Search Console can also be connected.</p>
+          <h3 className="text-xl font-medium my-3">Step 6: Testing and launch</h3>
+          <p className="mb-4">We test forms, buttons, links, speed, mobile layouts and browser compatibility. The website is launched after the final review.</p>
+          <h3 className="text-xl font-medium my-3">Step 7: Improvement</h3>
+          <p className="mb-4">A website should improve with real user data. Search queries, enquiries and user behaviour can guide future content and design changes.</p>
+        </section>
+
+        <section aria-labelledby="web-design-cost-dubai">
+          <h2 id="web-design-cost-dubai" className="text-2xl font-medium my-4">How Much Does Web Design Cost in Dubai?</h2>
+          <p className="mb-4">Website prices depend on the number of pages, design level, platform, languages, integrations and content requirements. The ranges below are planning estimates, not fixed quotations.</p>
+          <div className="overflow-x-auto my-6">
+            <table className="min-w-full border-collapse border border-gray-300 text-left">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border border-gray-300 p-3">Website type</th>
+                  <th className="border border-gray-300 p-3">Typical scope</th>
+                  <th className="border border-gray-300 p-3">Estimated range</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 p-3">Landing page</td>
+                  <td className="border border-gray-300 p-3">One focused campaign page</td>
+                  <td className="border border-gray-300 p-3">AED 1,500-5,000</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 p-3">Small business website</td>
+                  <td className="border border-gray-300 p-3">Around 5-10 pages</td>
+                  <td className="border border-gray-300 p-3">AED 4,000-12,000</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 p-3">Corporate website</td>
+                  <td className="border border-gray-300 p-3">Custom design and more sections</td>
+                  <td className="border border-gray-300 p-3">AED 10,000-30,000+</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 p-3">Ecommerce website</td>
+                  <td className="border border-gray-300 p-3">Products, cart and payment setup</td>
+                  <td className="border border-gray-300 p-3">AED 12,000-50,000+</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 p-3">Custom web platform</td>
+                  <td className="border border-gray-300 p-3">Special features and workflows</td>
+                  <td className="border border-gray-300 p-3">Based on scope</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="mb-4">Domain renewal, hosting, paid plugins, maintenance, professional content, product uploads and advertising may cost extra. Ask for a written scope so you know exactly what is included.</p>
+        </section>
+
+        <section aria-labelledby="website-timeline">
+          <h2 id="website-timeline" className="text-2xl font-medium my-4">How Long Does It Take to Build a Website?</h2>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>Landing page: around 1-2 weeks.</li>
+            <li>Small business website: around 3-5 weeks.</li>
+            <li>Corporate website: around 5-10 weeks.</li>
+            <li>Ecommerce or custom platform: around 8-16 weeks or more.</li>
+          </ul>
+          <p className="mb-4">The timeline may change based on project size, content readiness, integrations and approval speed. Giving feedback on time helps avoid delays.</p>
+        </section>
+
+        <section aria-labelledby="web-design-vs-development">
+          <h2 id="web-design-vs-development" className="text-2xl font-medium my-4">Web Design vs Web Development</h2>
+          <div className="overflow-x-auto my-6">
+            <table className="min-w-full border-collapse border border-gray-300 text-left">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border border-gray-300 p-3">Web design</th>
+                  <th className="border border-gray-300 p-3">Web development</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border border-gray-300 p-3">Focuses on appearance and user experience</td>
+                  <td className="border border-gray-300 p-3">Focuses on building functions and systems</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 p-3">Includes layouts, colours and typography</td>
+                  <td className="border border-gray-300 p-3">Includes code, databases and integrations</td>
+                </tr>
+                <tr>
+                  <td className="border border-gray-300 p-3">Plans how visitors move through pages</td>
+                  <td className="border border-gray-300 p-3">Makes the planned experience work</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="mb-4">Both are important. A beautiful design without strong development may be slow or broken. Good development without clear design may be difficult to use.</p>
+        </section>
+
+        <section aria-labelledby="seo-friendly-web-design">
+          <h2 id="seo-friendly-web-design" className="text-2xl font-medium my-4">SEO-Friendly Web Design for Better Google Visibility</h2>
+          <p className="mb-4">SEO should be planned from the beginning. Fixing the entire structure after launch can take more time and money.</p>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>Create one useful page for each important service.</li>
+            <li>Match each page with a clear search intent.</li>
+            <li>Use logical H1, H2 and H3 headings.</li>
+            <li>Add relevant internal links between services, blogs and contact pages.</li>
+            <li>Compress images and use modern formats such as WebP.</li>
+            <li>Add descriptive titles, meta descriptions and image alt text.</li>
+            <li>Create an XML sitemap and submit it through Google Search Console.</li>
+            <li>Use suitable structured data without adding false information.</li>
+          </ul>
+          <p className="mb-4">Local SEO also needs accurate business information, genuine reviews and a well-managed Google Business Profile. A website supports these signals, but no ethical agency can promise a guaranteed number-one ranking.</p>
+        </section>
+
+        <section aria-labelledby="web-design-mistakes">
+          <h2 id="web-design-mistakes" className="text-2xl font-medium my-4">Common Web Design Mistakes to Avoid</h2>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>Using large images that make pages slow.</li>
+            <li>Adding too many animations or pop-ups.</li>
+            <li>Hiding phone numbers and contact buttons.</li>
+            <li>Copying content from competitors.</li>
+            <li>Building only for desktop users.</li>
+            <li>Publishing thin service pages with little useful information.</li>
+            <li>Forgetting analytics, backups, security and regular updates.</li>
+            <li>Sending every visitor to the home page instead of the right service page.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="choose-web-design-company">
+          <h2 id="choose-web-design-company" className="text-2xl font-medium my-4">How to Choose the Best Web Design Company in Dubai</h2>
+          <p className="mb-4">Do not choose a company only because it offers the lowest price. Check whether the team understands your business goal and can explain its process clearly.</p>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>Review real projects and ask what the team delivered.</li>
+            <li>Check mobile performance, speed and usability of previous websites.</li>
+            <li>Confirm who will provide text, images and translations.</li>
+            <li>Ask whether SEO basics, analytics and Search Console are included.</li>
+            <li>Confirm ownership of the domain, hosting, design files and website access.</li>
+            <li>Request a clear scope, timeline, payment schedule and support terms.</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="dubai-website-check">
+          <h2 id="dubai-website-check" className="text-2xl font-medium my-4">The Dubai 7-Point Website Check</h2>
+          <p className="mb-4">Use this quick Pendagon checklist before approving a website. Give one point for every “yes”. A score below five means the site may need more work before launch.</p>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>Can a new visitor understand the business within five seconds?</li>
+            <li>Is there one clear call to action on every key page?</li>
+            <li>Can users complete the main task easily on a mobile?</li>
+            <li>Does every major service have its own useful page?</li>
+            <li>Are UAE contact details and service locations easy to find?</li>
+            <li>Do forms, WhatsApp links and phone buttons work correctly?</li>
+            <li>Are speed, analytics, security and backups ready?</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="why-pendagon">
+          <h2 id="why-pendagon" className="text-2xl font-medium my-4">Why Choose Pendagon Technologies for Web Design in Dubai?</h2>
+          <p className="mb-4">Pendagon Technologies creates websites for businesses that want clear branding, smooth user experience and measurable growth. Our approach connects web design, development, content and digital marketing.</p>
+          <p className="mb-4">We focus on mobile usability, speed, SEO-ready structure and conversion paths. Every project is planned around the client's audience and business goal instead of using the same design for everyone.</p>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>Custom and responsive website design.</li>
+            <li>Corporate, ecommerce and landing-page development.</li>
+            <li>UI/UX planning and brand-focused visuals.</li>
+            <li>SEO-ready page structure and technical setup.</li>
+            <li>WhatsApp, enquiry form and analytics integration.</li>
+            <li>Post-launch support based on the agreed scope.</li>
+          </ul>
+          <p className="mb-4">Explore our services at <a href="https://pendagon.in/services" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">pendagon.in/services</a> and view selected projects at <a href="https://pendagon.in/works" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">pendagon.in/works</a>.</p>
+        </section>
+
+        <section aria-labelledby="start-project">
+          <h2 id="start-project" className="text-2xl font-medium my-4">Start Your Website Project with Pendagon</h2>
+          <p className="mb-4">Your website should help people understand your business and take action. If you need professional web design for a Dubai business, Pendagon can plan a solution based on your goals, audience and budget.</p>
+          <p className="mb-4">Visit <a href="https://pendagon.in/contact" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">pendagon.in/contact</a> to discuss your project and request a quotation.</p>
+        </section>
+
+        <section aria-labelledby="faq">
+          <h2 id="faq" className="text-2xl font-medium my-4">Frequently Asked Questions</h2>
+          <h3 className="text-xl font-medium my-3">How much does a website cost in Dubai?</h3>
+          <p className="mb-4">A simple business website may start around AED 4,000, while custom corporate and ecommerce projects can cost much more. The final price depends on pages, features, design, content and integrations.</p>
+          <h3 className="text-xl font-medium my-3">How long does website development take?</h3>
+          <p className="mb-4">A small website may take around three to five weeks. Larger corporate, ecommerce or custom projects may take two to four months or more.</p>
+          <h3 className="text-xl font-medium my-3">Does a Dubai business need an Arabic website?</h3>
+          <p className="mb-4">Not every business needs one. Arabic can be valuable when your target customers prefer it or when you serve a wider local audience.</p>
+          <h3 className="text-xl font-medium my-3">Can Pendagon redesign an existing website?</h3>
+          <p className="mb-4">Yes. A redesign can improve the visual style, mobile experience, speed, content structure and conversion journey.</p>
+          <h3 className="text-xl font-medium my-3">Will my website be mobile-friendly?</h3>
+          <p className="mb-4">Yes. Responsive design helps the website adjust to common mobile, tablet and desktop screen sizes.</p>
+          <h3 className="text-xl font-medium my-3">Does website design include SEO?</h3>
+          <p className="mb-4">SEO-ready design normally includes clean structure, headings, metadata, internal links and performance basics. Ongoing SEO, content production and link building may be separate services.</p>
+          <h3 className="text-xl font-medium my-3">Which platform is best for my website?</h3>
+          <p className="mb-4">WordPress suits many content and business websites. Shopify or WooCommerce may suit ecommerce, while React or custom development may be better for special features. The right choice depends on your needs.</p>
+          <h3 className="text-xl font-medium my-3">Does Pendagon provide website maintenance?</h3>
+          <p className="mb-4">Maintenance can be included based on the agreed package. It may cover updates, backups, security checks, content changes and technical support.</p>
+        </section>
+
+        <section aria-labelledby="author">
+          <h2 id="author" className="text-2xl font-medium my-4">About the Author</h2>
+          <p className="mb-4">Muhammed Ajmal N. is a digital marketing strategist specialising in SEO, search-focused content, social media marketing and paid advertising. Learn more at <a href="https://muhammedajmaln.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">muhammedajmaln.com</a>.</p>
+        </section>
+
+        <section aria-labelledby="sources">
+          <h2 id="sources" className="text-2xl font-medium my-4">Sources</h2>
+          <ul className="list-disc list-inside mb-6 space-y-2">
+            <li>International Trade Administration, United Arab Emirates - eCommerce: <a href="https://www.trade.gov/country-commercial-guides/united-arab-emirates-ecommerce" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">www.trade.gov/country-commercial-guides/united-arab-emirates-ecommerce</a></li>
+            <li>ECDB, E-Commerce Industry in the UAE: <a href="https://ecdb.com/resources/sample-data/market/ae/all" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">ecdb.com/resources/sample-data/market/ae/all</a></li>
+            <li>Google web.dev, Web Vitals: <a href="https://web.dev/articles/vitals" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">web.dev/articles/vitals</a></li>
+          </ul>
         </section>
       </>
     ),
