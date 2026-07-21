@@ -68,7 +68,7 @@ const BlogFilter = ({
               key={article.id}
               className="group block w-full"
             >
-              <div className="w-full h-[265px] overflow-hidden rounded-xl bg-white">
+              <div className="w-full h-[320px] overflow-hidden rounded-xl bg-white">
                 <img
                   src={article.image}
                   alt={article.title}

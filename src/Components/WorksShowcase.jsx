@@ -20,7 +20,7 @@ const fadeSlide = (direction = "left") => ({
 
 const WorksShowcase = () => {
   return (
-    <section className="px-7 md:px-20 pt-10 md:py-28 font-space bg-white space-y-24 md:space-y-32">
+    <section className="px-7 md:px-20 pt-10 md:py-5 font-space space-y-24 md:space-y-20">
       {/* ── Work 1: Reel Creation — text left, media right ── */}
       <div className="flex flex-col sm:flex-row gap-2 md:gap-10 justify-between items-center">
         {/* Left: Content */}
@@ -32,7 +32,7 @@ const WorksShowcase = () => {
           variants={fadeSlide("left")}
         >
           <p className="text-[16px] font-semibold uppercase tracking-wide text-gray-700 mb-4">
-            Our Works
+            Reels Creation
           </p>
 
           <h2 className="text-3xl md:text-[46px] font-bold leading-tight mb-6">
@@ -48,7 +48,7 @@ const WorksShowcase = () => {
 
           <Link
             to="/works"
-            className="inline-flex items-center gap-3 rounded-full bg-black text-white px-6 py-3 text-sm font-semibold hover:bg-[#FF960B] transition-colors duration-300"
+            className="inline-flex items-center gap-3 rounded-full bg-[#4c327d] text-white px-6 py-3 text-sm font-semibold hover:bg-[#FF960B] transition-colors duration-300"
           >
             See Our Works
             <FaArrowRight aria-hidden="true" />
@@ -86,7 +86,7 @@ const WorksShowcase = () => {
           variants={fadeSlide("right")}
         >
           <p className="text-[16px] font-semibold uppercase tracking-wide text-gray-700 mb-4">
-            Our Works
+            seo
           </p>
 
           <h2 className="text-3xl md:text-[46px] font-bold leading-tight mb-6">
@@ -102,7 +102,7 @@ const WorksShowcase = () => {
 
           <Link
             to="/works"
-            className="inline-flex items-center gap-3 rounded-full bg-black text-white px-6 py-3 text-sm font-semibold hover:bg-[#FF960B] transition-colors duration-300"
+            className="inline-flex items-center gap-3 rounded-full bg-[#4c327d] text-white px-6 py-3 text-sm font-semibold hover:bg-[#FF960B] transition-colors duration-300"
           >
             See Our Works
             <FaArrowRight aria-hidden="true" />
