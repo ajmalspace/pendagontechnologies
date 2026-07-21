@@ -150,7 +150,7 @@ const ContactForm = () => {
           <div>
             <button
               type="submit"
-              className="px-6 py-2 bg-black text-white rounded-full hover:bg-[#FF960B] cursor-pointer transition-all duration-300"
+              className="px-6 py-2 bg-[#4B327C] text-white rounded-full hover:bg-[#FF960B] cursor-pointer transition-all duration-300"
             >
               Submit
             </button>
