@@ -6,6 +6,7 @@ import Work3 from "./work3.webp";
 import Work4 from "./work4.webp";
 import WorkVideo from "./workvid.webm";
 import WorkVideo2 from "./workvid2.webm";
+import WorkVideo3 from "./workvid3.webm";
 import AgencyVideo from "./Digital_Agency_Promo.webm";
 
 // Clients Logo
@@ -29,6 +30,7 @@ export {
   MainLogo,
   WorkVideo,
   WorkVideo2,
+  WorkVideo3,
   CokomiLogo,
   FlywellLogo,
   GulfguardLogo,
