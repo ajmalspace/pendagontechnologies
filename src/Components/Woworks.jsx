@@ -1,27 +1,28 @@
 import React, { useState } from "react";
-import { Work1, Work2 } from "../assets/assets";
+import { AinAl, Poster9, Rassluxe, Work1, Work2 } from "../assets/assets";
 
 const projects = [
   {
-    title: "Silverline Rental Group",
+    title: "Ain Al Khaleej",
+    tag: "Branding",
+    image: AinAl,
+  },
+  {
+    title: "Cokomi UAE Ecommerce",
     tag: "Website",
     image: Work1,
   },
   {
-    title: "OHI Coffee & Bakery",
-    tag: "Branding",
-    image: Work2,
+    title: "Starlink Global",
+    tag: "Creatives",
+    image: Poster9,
   },
   {
-    title: "Silverline Rental Group",
-    tag: "Website",
-    image: Work1,
-  },
-  {
-    title: "OHI Coffee & Bakery",
+    title: "Rassluxe",
     tag: "Branding",
-    image: Work2,
+    image: Rassluxe,
   },
+
 ];
 
 const Woworks = () => {
@@ -45,14 +46,14 @@ const Woworks = () => {
               >
                 {tag}
               </span>
-            )
+            ),
           )}
         </div>
 
         <div className="grid md:grid-cols-2 gap-y-25 gap-x-8 my-15">
           {projects
             .filter(
-              (project) => selectedTag === "All" || project.tag === selectedTag
+              (project) => selectedTag === "All" || project.tag === selectedTag,
             )
             .map((project, index) => (
               <div key={index} className="h-[280px] md:h-[480px]">

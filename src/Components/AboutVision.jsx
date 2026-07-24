@@ -7,10 +7,10 @@ import Vision5 from "../assets/Vision5.webp";
 
 const AboutVision = () => {
   return (
-    <div className="mx-auto grid md:px-9 items-start font-space">
+    <div className="mx-auto grid px-4 sm:px-9 items-start font-space">
       <div className="py-15">
         <p className="text-[30px] md:text-[40px] md:pr-45 uppercase font-semibold">
-          Your vision, our creativity — brought to life through powerful visuals
+          Your vision, our creativity - brought to life through powerful visuals
         </p>
       </div>
       <div className="grid grid-cols-3 md:grid-cols-5 gap-2 ">

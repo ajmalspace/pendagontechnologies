@@ -7,7 +7,7 @@ import logo from "../assets/Logo-Pendagon.webp";
 const navItems = [
   { name: "HOME", path: "/" },
   { name: "SERVICES", path: "/services" },
-  { name: "WORKS", path: "/works" },
+  { name: "WORKS", path: "/services" },
   { name: "ABOUT", path: "/about" },
   { name: "BLOG", path: "/blog" },
   { name: "CONTACT", path: "/contact" },
