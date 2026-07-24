@@ -7,6 +7,7 @@ import Work4 from "./work4.webp";
 import WorkVideo from "./workvid.webm";
 import WorkVideo2 from "./workvid2.webm";
 import WorkVideo3 from "./workvid3.webm";
+import WorkVideo4 from "./workvid4.webm"
 import AgencyVideo from "./Digital_Agency_Promo.webm";
 
 // Clients Logo
@@ -26,11 +27,40 @@ import SamsLogo from "./samslogo.webp";
 import apislogo from "./apislogo.webp";
 import dreamflowerlogo from "./dreamflowerlogo.webp";
 
+// Clients website screenshots
+import CokomiWebsite from "./cokomi.png";
+import GoldenFuture from "./goldenfuture.png";
+import BlackandFighter from "./blackandfighter.png";
+import Starlink from "./starlink.png";
+import PICS from "./pics.png";
+import KingStar from "./kingstar.png";
+import Dreamflower from "./dreamflower.png";
+
+import Rassluxe from "./rassluxe.png";
+import AinAl from "./ainal.png";
+import EcoGrid from "./ecogrid.png";
+
+// Posters
+
+import Poster1 from "./poster (1).webp";
+import Poster2 from "./poster (2).webp";
+import Poster3 from "./poster (3).webp";
+import Poster4 from "./poster (4).webp";
+import Poster5 from "./poster (5).webp";
+import Poster6 from "./poster (6).webp";
+import Poster7 from "./poster (7).webp";
+import Poster8 from "./poster (8).webp";
+import Poster9 from "./poster (9).webp";
+import Poster10 from "./poster (10).webp";
+import Poster11 from "./poster (11).webp";
+import Poster12 from "./poster (12).webp";
+
 export {
   MainLogo,
   WorkVideo,
   WorkVideo2,
   WorkVideo3,
+  WorkVideo4,
   CokomiLogo,
   FlywellLogo,
   GulfguardLogo,
@@ -52,4 +82,26 @@ export {
   Work3,
   Work4,
   AgencyVideo,
+  CokomiWebsite,
+  GoldenFuture,
+  BlackandFighter,
+  Starlink,
+  PICS,
+  KingStar,
+  Dreamflower,
+  Rassluxe,
+  AinAl,
+  EcoGrid,
+  Poster1,
+  Poster2,
+  Poster3,
+  Poster4,
+  Poster5,
+  Poster6,
+  Poster7,
+  Poster8,
+  Poster9,
+  Poster10,
+  Poster11,
+  Poster12
 };

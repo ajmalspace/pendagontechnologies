@@ -36,14 +36,14 @@ const WorksShowcase = () => {
           </p>
 
           <h2 className="text-3xl md:text-[46px] font-bold leading-tight mb-6">
-            Ranking Higher, <br className="hidden md:block" />
-            Growing Faster
+            Website Building, <br className="hidden md:block" />
+            Brand Building
           </h2>
 
           <p className="text-gray-600 text-base md:text-[18px] mb-8 max-w-md">
-            We help brands climb the search rankings with technical SEO, content
-            strategy, and data-backed optimization that turns visibility into
-            real business growth.
+            From concept to launch, discover how we build fast, scalable, and
+            user-focused websites that combine stunning design with powerful
+            functionality.
           </p>
 
           <Link
