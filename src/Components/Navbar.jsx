@@ -2,12 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import { FiX } from "react-icons/fi";
 import { BiDownArrowAlt } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import logo from "../assets/Logo-Pendagon.webp";
+import logo from "../assets/pendagonlogo.webp";
 
 const navItems = [
   { name: "HOME", path: "/" },
   { name: "SERVICES", path: "/services" },
-  { name: "WORKS", path: "/services" },
+  { name: "WORKS", path: "/works" },
   { name: "ABOUT", path: "/about" },
   { name: "BLOG", path: "/blog" },
   { name: "CONTACT", path: "/contact" },
@@ -97,7 +97,7 @@ const Navbar = () => {
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            className="h-11 w-auto"
+            className="sm:h-11 h-9 w-auto"
           />
         </Link>
 
