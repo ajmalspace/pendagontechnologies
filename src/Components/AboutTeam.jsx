@@ -81,7 +81,7 @@ const TeamSlider = () => {
       </h2>
 
       <Swiper
-        modules={[Autoplay]} 
+        modules={[Autoplay]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         spaceBetween={20}
         slidesPerView={2}
@@ -95,18 +95,16 @@ const TeamSlider = () => {
       >
         {teamMembers.map((member, index) => (
           <SwiperSlide key={index}>
-            <div className=" h-[100px] md:h-[340px] relative rounded-2xl group border border-[#dadada] overflow-hidden flex items-center justify-center">
+            <div className="h-[260px] md:h-[340px] relative rounded-2xl group border border-[#dadada] overflow-hidden flex items-center justify-center">
               {/* Team Member Image */}
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full md:h-[350px] h-[340px] object-cover grayscale hover:grayscale-0 active:grayscale-0 focus:grayscale-0 transition-all duration-300"
+                className="w-full h-[260px] md:h-[350px] object-cover grayscale sm:hover:grayscale-0 sm:focus:grayscale-0 transition-all duration-300"
               />
 
               {/* Overlay Info Box */}
-              <div
-                className="absolute bottom-4 left-4 right-4 bg-black group-hover:bg-[#271a41] transition-all duration-300 md:rounded-xl md:p-3 pl-3 py-1 shadow-md rounded-xl"
-              >
+              <div className="absolute bottom-4 left-4 right-4 bg-black sm:group-hover:bg-[#271a41] transition-all duration-300 md:rounded-xl md:p-3 pl-3 py-1 shadow-md rounded-xl">
                 <h3 className="font-bold text-white md:text-sm text-[12px] sm:text-base">
                   {member.name}
                 </h3>

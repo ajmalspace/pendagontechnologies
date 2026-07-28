@@ -1,21 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
-  BirminghamLogo,
-  BlackandFighterLogo,
-  CokomiLogo,
-  FlywellLogo,
-  FamsLogo,
-  GulfguardLogo,
   HeroBg,
-  JanardanLogo,
-  RassLuxeLogo,
-  StarLogo,
-  silverlineLogo,
-  yemmarkLogo,
+  CokomiLogo,
+  AinAlKhaleejLogo,
+  ApisLogo,
+  BFLogo,
+  ConceptsLogo,
+  DreamFlowerLogo,
+  ExitoLogo,
+  FamsLogo,
+  FlyWllLogo,
+  FrDrivingLogo,
+  HomeStoriesLogo,
+  HykaaLogo,
+  IndianaLogo,
+  JanardhanLogo,
+  KasaragodAssociationLogo,
+  MqLogo,
+  MuhdLogo,
+  RassluxeLogo,
   SamsLogo,
-  apislogo,
-  dreamflowerlogo,
+  SigMetroLogo,
+  StarLinkLogo,
+  StartitlesLogo,
+  YemmmarkkLogo,
+  SilverlineLogo,
 } from "../assets/assets";
+
 import TrustedClients from "./TrustedClients";
 
 const logos = [
@@ -25,29 +36,34 @@ const logos = [
     alt: "Cokomi logo",
   },
   {
-    img: FlywellLogo,
+    img: AinAlKhaleejLogo,
     link: "",
-    alt: "Flywell logo",
+    alt: "Ain Al Khaleej logo",
   },
   {
-    img: GulfguardLogo,
-    link: "https://gulfguardqatar.com/",
-    alt: "Gulf Guard Qatar logo",
+    img: ApisLogo,
+    link: "https://www.instagram.com/apis.paramedical_institute/",
+    alt: "APIS Paramedical Institute logo",
   },
   {
-    img: JanardanLogo,
-    link: "https://www.janardanhospital.com/",
-    alt: "Janardan Hospital logo",
-  },
-  {
-    img: BirminghamLogo,
-    link: "https://birmingham.com/",
-    alt: "Birmingham logo",
-  },
-  {
-    img: BlackandFighterLogo,
+    img: BFLogo,
     link: "https://blackandfighter.com/",
-    alt: "Black and Fighter logo",
+    alt: "Black & Fighter logo",
+  },
+  {
+    img: ConceptsLogo,
+    link: "",
+    alt: "Concepts logo",
+  },
+  {
+    img: DreamFlowerLogo,
+    link: "https://www.ivfkeraladf.com/",
+    alt: "Dream Flower IVF Centre logo",
+  },
+  {
+    img: ExitoLogo,
+    link: "",
+    alt: "Exito logo",
   },
   {
     img: FamsLogo,
@@ -55,24 +71,54 @@ const logos = [
     alt: "FAMS UAE logo",
   },
   {
-    img: RassLuxeLogo,
+    img: FlyWllLogo,
+    link: "",
+    alt: "Fly WLL logo",
+  },
+  {
+    img: FrDrivingLogo,
+    link: "",
+    alt: "FR Driving logo",
+  },
+  {
+    img: HomeStoriesLogo,
+    link: "",
+    alt: "Home Stories logo",
+  },
+  {
+    img: HykaaLogo,
+    link: "",
+    alt: "HYKAA logo",
+  },
+  {
+    img: IndianaLogo,
+    link: "",
+    alt: "Indiana logo",
+  },
+  {
+    img: JanardhanLogo,
+    link: "https://www.janardanhospital.com/",
+    alt: "Janardhan Hospital logo",
+  },
+  {
+    img: KasaragodAssociationLogo,
+    link: "",
+    alt: "Kasaragod Association logo",
+  },
+  {
+    img: MqLogo,
+    link: "",
+    alt: "MQ logo",
+  },
+  {
+    img: MuhdLogo,
+    link: "",
+    alt: "MUHD logo",
+  },
+  {
+    img: RassluxeLogo,
     link: "https://www.instagram.com/rassluxe_perfumes/",
-    alt: "Rass Luxe Perfumes logo",
-  },
-  {
-    img: StarLogo,
-    link: "https://www.instagram.com/star_tiles._/",
-    alt: "Star Tiles logo",
-  },
-  {
-    img: silverlineLogo,
-    link: "https://www.instagram.com/silverline_rental/",
-    alt: "Silver Line Construction Machinery Rental logo",
-  },
-  {
-    img: yemmarkLogo,
-    link: "https://www.instagram.com/yemmark_tvs/",
-    alt: "Yemmark TVS logo",
+    alt: "Rass Luxe logo",
   },
   {
     img: SamsLogo,
@@ -80,18 +126,51 @@ const logos = [
     alt: "Sams Future EV logo",
   },
   {
-    img: apislogo,
-    link: "https://www.instagram.com/apis.paramedical_institute/",
-    alt: "APIS Paramedical Institute logo",
+    img: SigMetroLogo,
+    link: "",
+    alt: "SIG Metro logo",
   },
   {
-    img: dreamflowerlogo,
-    link: "https://www.ivfkeraladf.com/",
-    alt: "Dreamflower IVF Centre logo",
+    img: StarLinkLogo,
+    link: "",
+    alt: "Star Link logo",
+  },
+  {
+    img: StartitlesLogo,
+    link: "https://www.instagram.com/star_tiles._/",
+    alt: "Star Tiles logo",
+  },
+  {
+    img: YemmmarkkLogo,
+    link: "https://www.instagram.com/yemmark_tvs/",
+    alt: "Yemmark TVS logo",
+  },
+  {
+    img: SilverlineLogo,
+    link: "https://www.instagram.com/silverline_rental/",
+    alt: "Silverline Rental logo",
   },
 ];
 
 const Hero = () => {
+  const ITEMS_PER_PAGE = 12;
+  const [page, setPage] = useState(0);
+
+  const totalPages = Math.ceil(logos.length / ITEMS_PER_PAGE);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPage((prev) => (prev + 1) % totalPages);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [totalPages]);
+
+  const visibleLogos = logos.slice(
+    page * ITEMS_PER_PAGE,
+    (page + 1) * ITEMS_PER_PAGE,
+  );
+
   return (
     <section className="relative w-full min-h-screen overflow-hidden flex flex-col justify-center items-center text-center px-4 sm:px-6 pt-8 sm:pt-24 pb-16 md:my-20">
       {/* Background Image */}
@@ -127,7 +206,7 @@ const Hero = () => {
         business stand out from the competition.
       </p>
 
-      <TrustedClients logos={logos} />
+      <TrustedClients logos={visibleLogos} />
     </section>
   );
 };

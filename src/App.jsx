@@ -16,6 +16,18 @@ const Digital = lazy(() => import("./Pages/Digital"));
 const Contact = lazy(() => import("./Pages/Contact"));
 const Careers = lazy(() => import("./Pages/Career"));
 const ApplyNow = lazy(() => import("./Components/ApplyNow"));
+const Portfolio = lazy(() => import("./Pages/Portfolio"));
+const DigitalMarketingPortfolio = lazy(
+  () => import("./Pages/DigitalMarketingPortfolio"),
+);
+const PerformanceMarketingPortfolio = lazy(
+  () => import("./Pages/PerformanceMarketingPortfolio"),
+);
+const BrandingPortfolio = lazy(() => import("./Pages/BrandingPortfolio"));
+const UIUXPortfolio = lazy(() => import("./Pages/UIUXPortfolio"));
+const CreativeDesignPortfolio = lazy(
+  () => import("./Pages/CreativeDesignPortfolio"),
+);
 
 const App = () => {
   return (
@@ -30,9 +42,7 @@ const App = () => {
             role="status"
             aria-live="polite"
           >
-            <p className="text-base font-medium text-gray-700">
-              Loading...
-            </p>
+            <p className="text-base font-medium text-gray-700">Loading...</p>
           </div>
         }
       >
@@ -47,12 +57,24 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Careers />} />
           <Route path="/applyNow" element={<ApplyNow />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route
+            path="/portfolio/digital-marketing"
+            element={<DigitalMarketingPortfolio />}
+          />
+          <Route
+            path="/portfolio/performance-marketing"
+            element={<PerformanceMarketingPortfolio />}
+          />
+          <Route path="/portfolio/branding" element={<BrandingPortfolio />} />
+          <Route path="/portfolio/ui-ux" element={<UIUXPortfolio />} />
+          <Route
+            path="/portfolio/creative-design"
+            element={<CreativeDesignPortfolio />}
+          />
 
           {/* Redirect uppercase URL to the correct lowercase URL */}
-          <Route
-            path="/Digital"
-            element={<Navigate to="/digital" replace />}
-          />
+          <Route path="/Digital" element={<Navigate to="/digital" replace />} />
         </Routes>
       </Suspense>
 

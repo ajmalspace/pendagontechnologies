@@ -20,7 +20,7 @@ const services = [
       "Analytics & Reporting",
       "Lead Generation",
     ],
-    link: "/Digital",
+    link: "/portfolio/digital-marketing",
   },
   {
     title: "Performance Marketing",
@@ -37,6 +37,7 @@ const services = [
       "Lead Generation",
       "Analytics & Reporting",
     ],
+    link: "/portfolio/performance-marketing",
   },
   {
     title: "Branding Solutions",
@@ -53,6 +54,7 @@ const services = [
       "Storytelling",
       "Positioning",
     ],
+    link: "/portfolio/branding",
   },
   {
     title: "UI/UX Designing",
@@ -69,6 +71,7 @@ const services = [
       "Design Systems",
       "Mobile & Web App",
     ],
+    link: "/portfolio",
   },
   {
     title: "Website Development",
@@ -86,6 +89,7 @@ const services = [
       "Website Maintenance",
       "Optimization",
     ],
+    link: "/portfolio",
   },
   {
     title: "Creative Designing",
@@ -102,6 +106,7 @@ const services = [
       "Animation",
       "Print & Digital Media Design",
     ],
+    link: "/portfolio/creative-design",
   },
 ];
 

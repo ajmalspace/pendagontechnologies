@@ -73,7 +73,7 @@ const AboutSection = () => {
           </h3>
         </div>
         <div className="md:col-span-2">
-          <div className="flex flex-wrap sm:flex-nowrap gap-35">
+          <div className="flex flex-wrap sm:flex-nowrap justify-center gap-35 pt-10 sm:pt-0">
             <div className="text-center sm:text-left">
               <p className="text-6xl sm:text-7xl md:text-8xl font-semibold text-black">
                 2<span className="text-orange-500 text-4xl sm:text-6xl">+</span>

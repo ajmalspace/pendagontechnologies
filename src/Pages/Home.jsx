@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useEffect, useRef, useState } from "react";
 
 import Hero from "../Components/Hero";
+import PostersMotion from "../Components/PostersMotion";
 
 // Lazy-load sections below the hero
 const HeroAboutSection = lazy(() => import("../Components/HeroAbout"));
@@ -70,6 +71,11 @@ const Home = () => {
         <DeferredSection minHeight="500px">
           <Suspense fallback={<SectionLoader minHeight="500px" />}>
             <WorksShowcase />
+          </Suspense>
+        </DeferredSection>
+        <DeferredSection minHeight="500px">
+          <Suspense fallback={<SectionLoader minHeight="500px" />}>
+            <PostersMotion />
           </Suspense>
         </DeferredSection>
         <Suspense fallback={<SectionLoader minHeight="800px" />}>
